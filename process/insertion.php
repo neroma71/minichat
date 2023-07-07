@@ -43,9 +43,6 @@
 
   $req = $db->prepare("DELETE FROM messages");
   $req->execute();
-
-  $req = $db->prepare("DELETE FROM users");
-  $req->execute();
 }
 header("location: ../index.php");
 

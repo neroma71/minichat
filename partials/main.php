@@ -8,11 +8,10 @@
     
     <section id="formulaire">
         <form method="post" action="../process/insertion.php">
-                <label for="pseudo">pseudo :</label>
-                <input type="text" name="pseudo" id="pseudo">
-           
-                <label for="message">message : </label>
-                <textarea name="message"></textarea>
+            <p>
+                <input type="text" name="pseudo" id="pseudo" placeholder="pseudo">
+            </p>
+                <textarea name="message" placeholder="message"></textarea>
          <div class="mybtn">
             <p>
             <button type="submit" name="valider" class="btn">poster</button>
