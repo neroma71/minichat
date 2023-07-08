@@ -1,3 +1,4 @@
+
 *{
     box-sizing:border-box;
     font-family:Helvetica;
@@ -35,6 +36,7 @@ aside{
     left:86%;
     top:20px;
     padding:10px;
+    border-radius:5px;
     overflow-y: scroll;
     border:1px solid black;
 }
@@ -45,8 +47,9 @@ aside{
     height:300px;
     top:20px;
     padding:10px;
+    border-radius:5px;
     overflow-y: scroll;
-    border:1px solid black;
+    border:1px solid grey;
 }
 #formulaire{
     position:relative;
@@ -57,7 +60,8 @@ aside{
     height:100px;
     display:flex;
     justify-content:left;
-    border:1px solid rgb(56, 52, 52);
+    border-radius:5px;
+    border:1px solid grey;
 }
 form{
     width:100%;
@@ -65,11 +69,16 @@ form{
 input[type='text']{
     position:relative;
     top:-10px;
+    border:1px solid grey;
+    border-radius:5px;
 }
 textarea{
     position:relative;
     width:90%;
     top:-20px;
+    border:1px solid grey;
+    border-radius:5px;
+    background:white;
 }
 ::placeholder{
     color:blueviolet;
